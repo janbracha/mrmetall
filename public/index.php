@@ -21,8 +21,8 @@ require_once __DIR__ . '/../includes/header.php';
                 hliník nebo nerezový sortiment ve vynikající kvalitě za férové ceny.
             </p>
             <div class="hero-cta">
-                <a href="/kontakt" class="btn btn-primary">Kontaktujte nás</a>
-                <a href="/planovani" class="btn btn-secondary">Naše služby</a>
+                <a href="/kontakt.php" class="btn btn-primary">Kontaktujte nás</a>
+                <a href="/planovani.php" class="btn btn-secondary">Naše služby</a>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@ require_once __DIR__ . '/../includes/header.php';
                     Rádi Vám poradíme s postupy a možnostmi, které jsou pro Vaše plány nutné. 
                     Přizpůsobíme naši práci individuálně Vašim potřebám.
                 </p>
-                <a href="/planovani" class="service-link">Dozvědět se více →</a>
+                <a href="/planovani.php" class="service-link">Dozvědět se více →</a>
             </div>
             
             <div class="service-card">
@@ -64,7 +64,7 @@ require_once __DIR__ . '/../includes/header.php';
                     S moderním vybavením a odborně vyškolenými pracovníky předpřipravujeme 
                     jednotlivé projekty s naší partnerskou firmou v České Republice.
                 </p>
-                <a href="/vyroba" class="service-link">Dozvědět se více →</a>
+                <a href="/vyroba.php" class="service-link">Dozvědět se více →</a>
             </div>
             
             <div class="service-card">
@@ -78,7 +78,7 @@ require_once __DIR__ . '/../includes/header.php';
                     K instalaci zakázky využíváme odborné pracovníky, se kterými máte jistotu, 
                     že po dokončení nového díla nevzniknou žádné další nevyžádané práce.
                 </p>
-                <a href="/instalace" class="service-link">Dozvědět se více →</a>
+                <a href="/instalace.php" class="service-link">Dozvědět se více →</a>
             </div>
             
             <div class="service-card">
@@ -93,7 +93,7 @@ require_once __DIR__ . '/../includes/header.php';
                     Náš odborný tým provádí také opravy nebo dostavby již stávajících realizací 
                     z různých materiálů: železo, ocel, hliník i nerezový materiál.
                 </p>
-                <a href="/opravy" class="service-link">Dozvědět se více →</a>
+                <a href="/opravy.php" class="service-link">Dozvědět se více →</a>
             </div>
         </div>
     </div>
@@ -162,7 +162,7 @@ require_once __DIR__ . '/../includes/header.php';
                 Využijte jednoduchý způsob kontaktu k zodpovězení Vašich otázek a prověření možností naší firmou.
             </p>
             <div class="cta-buttons">
-                <a href="/kontakt" class="btn btn-primary btn-large">Kontaktní formulář</a>
+                <a href="/kontakt.php" class="btn btn-primary btn-large">Kontaktní formulář</a>
                 <a href="tel:<?php echo str_replace(' ', '', COMPANY_PHONE); ?>" class="btn btn-secondary btn-large">
                     Zavolejte nám
                 </a>

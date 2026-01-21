@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Zakázat přístup k souborům a adresářům
+Disallow: /includes/
+Disallow: /config.php
+Disallow: /*.php$
+
+# Povolit důležité statické soubory
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Sitemap
+Sitemap: https://www.mr-metall.cz/sitemap.xml

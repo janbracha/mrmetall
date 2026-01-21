@@ -1,0 +1,36 @@
+# Ignorovat PHP dependency manager (pokud by se používal)
+/vendor/
+
+# Ignorovat IDE soubory
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorovat systémové soubory
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorovat logy
+*.log
+error_log
+php_errors.log
+
+# Ignorovat temporary soubory
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Ignorovat upload složky (pokud by vznikly)
+/public/uploads/
+/public/temp/
+
+# Ignorovat config s citlivými daty (pokud existuje)
+config.local.php
+
+# Ignorovat cache
+/cache/
+*.cache
